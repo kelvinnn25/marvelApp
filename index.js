@@ -1,0 +1,6 @@
+class Marvel {
+    state = {};
+    render() {
+        
+    }
+}
