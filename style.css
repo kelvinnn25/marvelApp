@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     text-decoration: none;
-
+    text-size-adjust: auto;
 }
 
 *{ /* this affects every element */
@@ -20,26 +20,24 @@
 
 
 .wholePage{
-    width: 1440px;
     margin-left: auto;
     margin-right: auto;
     
+
 }
 .container {
     background-image: url(avengers.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-size: cover;
     position: relative;
-    width: 100%;
-    height: 720px;
-    padding: 0;
+    height: 70vh;
+    width: 100vw;
+    
 }
 .site_title{
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 850px;
+    left: 650px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -123,9 +121,15 @@
     cursor: pointer;
     color: #000;
 }
+.container2{
+    padding: 0rem;
+}
 
-.Quiz{
-    text-align: center;
+#websiteName{
+    position: absolute;
+    width: 948px;
+    height: 106px;
+    font-size: 50px;
 }
 @keyframes wipe-center{
     0%{
