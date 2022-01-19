@@ -1,7 +1,18 @@
 *{
     justify-content: center;
 }
-
+.head{
+    padding: 0rem;
+}
 .main{
     opacity: 0;
+    padding: 0rem;
+}
+.avengersImg{
+    height: 60vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(avengers.jpg);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    shape-outside: circle(50%);
 }
