@@ -6,27 +6,61 @@
     height:100%; 
     margin:0 
 }
+/* Style the navigation bar */
+.navbar {
+    width: 100vw;
+    background-color: rgb(122, 63, 63);
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgba(66, 5, 5, 0.466);
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #d6cff5;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
 .body { 
     width:100%; 
     height:100%; 
     margin:0; 
     padding:0; 
 }
-.head{
-    padding: 0rem;
-}
-.main{
-    opacity: 0;
-    padding: 0rem;
-}
-.avengersImg{
-    height: 60vh;
+.parallax {
+    /* The image used */
+    background-image: url("avengers.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
     width: 100vw;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(avengers.jpg);
-    mix-blend-mode: normal;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    shape-outside: circle(50%);
-}
+  }
+
 .avengers{ 
     width: 100vw;
     height: 100vh;
