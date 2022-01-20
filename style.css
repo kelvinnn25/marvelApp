@@ -161,4 +161,8 @@ body{
         transform: scale(1, .025);
     }
 }
-
+.avengers{ 
+    width: 100vw;
+    height: 100vh;
+    border-width: 0px;
+}
